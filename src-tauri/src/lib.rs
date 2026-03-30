@@ -255,7 +255,7 @@ use std::sync::Arc;
 use utils::AppPaths;
 
 use std::sync::atomic::{AtomicBool, Ordering};
-use tracing::{debug, error, info, warn};
+use tracing::{debug, error, info};
 
 use tauri::{
     menu::{Menu, MenuItem},
