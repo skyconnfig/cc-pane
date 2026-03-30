@@ -44,6 +44,19 @@ for (const f of fs.readdirSync(agentsSrc).filter(f => f.endsWith(".md"))) {
 }
 console.log(`Copied agents/ (${fs.readdirSync(agentsDest).length} files)`);
 
+// 复制 default-skills/
+const skillsSrc = path.join(srcClaude, "default-skills");
+const skillsDest = path.join(destBase, ".claude", "default-skills");
+if (fs.existsSync(skillsSrc)) {
+  fs.mkdirSync(skillsDest, { recursive: true });
+  for (const f of fs.readdirSync(skillsSrc).filter(f => f.endsWith(".md"))) {
+    fs.copyFileSync(path.join(skillsSrc, f), path.join(skillsDest, f));
+  }
+  console.log(`Copied default-skills/ (${fs.readdirSync(skillsDest).length} files)`);
+} else {
+  console.warn(`default-skills directory not found: ${skillsSrc}`);
+}
+
 // 复制项目 CLAUDE.md
 fs.copyFileSync("CLAUDE.md", path.join(destBase, "CLAUDE.md"));
 console.log("Copied CLAUDE.md");
