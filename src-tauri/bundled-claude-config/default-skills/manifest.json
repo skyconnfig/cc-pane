@@ -5,12 +5,37 @@
     "mcp_server_name": "ccpanes"
   },
   "skills": [
-    { "name": "launch-task", "file": "launch-task.md" },
-    { "name": "fork-session", "file": "fork-session.md" },
-    { "name": "parallel-run", "file": "parallel-run.md" },
-    { "name": "workspace", "file": "workspace.md" },
-    { "name": "browse-sessions", "file": "browse-sessions.md" },
-    { "name": "dispatch-todos", "file": "dispatch-todos.md" },
-    { "name": "spec", "file": "spec.md" }
+    {
+      "name": "launch-task",
+      "file": "launch-task.md"
+    },
+    {
+      "name": "fork-session",
+      "file": "fork-session.md"
+    },
+    {
+      "name": "parallel-run",
+      "file": "parallel-run.md"
+    },
+    {
+      "name": "workspace",
+      "file": "workspace.md"
+    },
+    {
+      "name": "browse-sessions",
+      "file": "browse-sessions.md"
+    },
+    {
+      "name": "dispatch-todos",
+      "file": "dispatch-todos.md"
+    },
+    {
+      "name": "spec",
+      "file": "spec.md"
+    },
+    {
+      "name": "multi-search-engine",
+      "file": "multi-search-engine.md"
+    }
   ]
 }
