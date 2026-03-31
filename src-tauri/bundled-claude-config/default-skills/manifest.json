@@ -36,6 +36,10 @@
     {
       "name": "multi-search-engine",
       "file": "multi-search-engine.md"
+    },
+    {
+      "name": "openviking-context",
+      "file": "openviking-context.md"
     }
   ]
 }
