@@ -10,4 +10,5 @@ members = [
     "cc-memory-mcp",
     "cc-notify",
     "cc-cli-adapters",
+    "crates/cc-agent",
 ]
